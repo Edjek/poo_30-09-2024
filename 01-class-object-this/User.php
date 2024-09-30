@@ -15,10 +15,15 @@ class User
     public string $lastName;
 
     // creer une methode identity
-        // retourne le nom et le prenom de user
+    // retourne le nom et le prenom de user
 
-    public function hello()
+    public function identity(): string
     {
-        echo "bonjour";
+        return "$this->firstName $this->lastName";
+    }
+
+    public function hello(): void
+    {
+        echo "bonjour " . $this->identity();
     }
 }
