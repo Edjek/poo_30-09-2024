@@ -1,8 +1,9 @@
-<!-- Creer une class Car -->
-    <!-- propriete -->
-        <!-- model -->
-        <!-- color -->
-        <!-- year_release -->
-    
-    <!-- methode displayInformation -->
-        <!-- retourner "Ce véhicule est une XXX de XXX ans et sa couleur est XXX  -->
+<?php
+
+include_once './Car.php';
+
+$car = new Car();
+
+$car->setModel('Audi');
+echo $car->getModel();
+
