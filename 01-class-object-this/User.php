@@ -24,6 +24,6 @@ class User
 
     public function hello(): void
     {
-        echo "bonjour " . $this->identity();
+        echo "Bonjour " . $this->identity() . '<br>';
     }
 }

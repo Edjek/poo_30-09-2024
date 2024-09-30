@@ -1,9 +1,9 @@
 <?php
 
 include_once './User.php';
+include_once './Animal.php';
 
 $rachid = new User();
-
 
 $rachid->firstName = 'Rachid ';
 $rachid->lastName = 'EDJEKOUANE';
@@ -15,16 +15,8 @@ $rachid->lastName = 'DOE';
 echo $eleve->firstName;
 
 
-// Creer une class Animal
-    // name
-    // type
-    // age initialise a 0
-
-    // methode eat
-        // retourne ' TYPE est entrain de manger'
-
-    // methode sleep
-        // retourne "NOM est entrain de dormir"
-
-
-//  Creer un objet chat de type Animal et afficher ses 2 methodes
+$cat = new Animal();
+$cat->name = 'Gros Minet';
+$cat->type = 'chat';
+echo $cat->eat();
+echo $cat->sleep();
