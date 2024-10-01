@@ -18,6 +18,14 @@ class Car
 
     private int $yearRelease;
 
+    // Le constructeur est une methode magique qui est appelé automatiquement lors de l'instance d'une classe
+    // Le constructeur permet d'initialiser les propriétées d'un objet
+    public function __construct($model, $color)
+    {
+        $this->model = $model;
+        $this->color = $color;
+    }
+
     public function getModel(): string
     {
         return $this->model;
