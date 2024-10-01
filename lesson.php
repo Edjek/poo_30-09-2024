@@ -140,23 +140,31 @@ class Manga
      */
     private string $author;
 
+    // ? méthode magique __construct (constructeur) qui est appelée automatiquement lors de l'instanciation de la classe
     public function __construct(string $titre, string $auteur)
     {
         $this->title = $titre;
         $this->author = $auteur;
     }
 
+    // ? méthode magique __destruct qui est appelée automatiquement lors de la destruction de l'objet (unset)
     public function __destruct()
     {
         echo 'la variable a été detruite';
     }
 
-    private static function hello()
+    /**
+     * @return string
+     */
+    private static function hello(): string
     {
         return 'salut';
     }
 
-    public function bonjour()
+    /**
+     * @return string
+     */
+    public function bonjour(): string
     {
         return  self::hello() . 'tout le monde';
     }
@@ -230,8 +238,8 @@ unset($naruto);
     # MÉTHODE MAGIQUE
 \*------------------------------------*/
 
-// Une méthode magique est une méthode qui est appelée automatiquement par PHP.
-// Une méthode magique est une méthode qui commence par __.
+// Une méthode magique est une méthode qui est appelée automatiquement par PHP, sans avoir besoin de l'appeler explicitement.
+// Une méthode magique est une méthode qui commence par __ (double underscore).
 
 /*------------------------------------*\
     # CONSTRUCTEUR
@@ -261,7 +269,8 @@ unset($naruto);
 // L'héritage permet de créer une classe enfant qui peut avoir des propriétés et des méthodes supplémentaires.
 
 /*------------------------------------*\
-    # POLYMORPHISME
+    # POLYMORPHISME (redéfinition)
 \*------------------------------------*/
 
 // Le polymorphisme permet de redéfinir une méthode dans une classe enfant.
+
