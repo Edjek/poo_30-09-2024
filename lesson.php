@@ -120,7 +120,7 @@ echo $HarryPotter->getAuthor();
 // 3 niveaux de visibilité :
 // - public :    accessible depuis l'extérieur de la classe
 // - private :   accessible uniquement depuis l'intérieur de la classe
-// - protected : accessible depuis l'intérieur de la classe et depuis les classes enfants
+// - protected : accessible uniquement depuis l'intérieur de la classe et depuis les classes enfants
 
 /*------------------------------------*\
     # ENCAPSULATION
