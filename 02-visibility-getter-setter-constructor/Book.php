@@ -2,7 +2,7 @@
 
 /** 
  * @author EDJEKOUANE Rachid
-*/
+ */
 class Book
 {
     /**
@@ -90,11 +90,11 @@ class Book
     }
 
     /**
-     * @param mixed $nbPage
+     * @param int $nbPage
      * 
      * @return self
      */
-    public function setNbPage($nbPage): self
+    public function setNbPage(int $nbPage): self
     {
         $this->nbPage = $nbPage;
 
