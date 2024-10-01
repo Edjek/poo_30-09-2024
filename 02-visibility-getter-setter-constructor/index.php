@@ -14,6 +14,6 @@ echo $car->getModel();
 
 $book = new Book('Alice aux pays des merveilles','Lewis Carroll', 124, 1865);
 
-echo $book;
-
+$book->read();
+$book->title;
 
