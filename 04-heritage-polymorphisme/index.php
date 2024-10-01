@@ -3,7 +3,6 @@
 include_once './Animal.php';
 include_once './Dog.php';
 
-$droopy = new Dog('Droopy', 12, 'race');
+$droopy = new Dog('Droopy', 12, 'chien de race');
 
-var_dump($droopy);
 echo $droopy->description();
