@@ -239,3 +239,29 @@ unset($naruto);
 
 // Le constructeur est une méthode magique qui est appelée automatiquement lors de l'instanciation d'une classe.
 // Le constructeur permet d'initialiser les propriétés d'un objet.
+
+/*------------------------------------*\
+    # MÉTHODE STATIC
+\*------------------------------------*/
+
+// Une méthode static est une méthode qui peut être appelée sans avoir besoin d'instancier la classe.
+
+/*------------------------------------*\
+    # CONSTANTE
+\*------------------------------------*/
+
+// Une constante est une valeur qui ne peut pas être modifiée.
+// Une constante est static.
+
+/*------------------------------------*\
+    # HÉRITAGE
+\*------------------------------------*/
+
+// L'héritage permet de créer une classe enfant qui hérite des propriétés et des méthodes d'une classe parent.
+// L'héritage permet de créer une classe enfant qui peut avoir des propriétés et des méthodes supplémentaires.
+
+/*------------------------------------*\
+    # POLYMORPHISME
+\*------------------------------------*/
+
+// Le polymorphisme permet de redéfinir une méthode dans une classe enfant.
