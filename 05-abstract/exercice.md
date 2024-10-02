@@ -15,20 +15,10 @@ Créer trois classes en PHP : `Player`, `Warrior`, et `Mage`. La classe `Player`
     - Constructeur pour initialiser le `name`
     - Getters et Setters pour toutes les propriétés
     - Méthode `hit()` qui enlève 10 points de `life`
-    - `name`
-    - `life` (valeur par défaut : 100)
-    - `score` (valeur par défaut : 0)
-    - Constructeur pour initialiser le `name`
-    - Getters et Setters pour toutes les propriétés
-    - Méthode `hit()` qui enlève 10 points de `life`
 
 ### Classe Warrior
 
 2. Créez la classe `Warrior` qui hérite de `Player` avec les propriétés et méthodes suivantes :
-    - `arrow` (nombre de flèches)
-    - Constructeur pour initialiser le `name` et le `nombre de flèches`
-    - Getters et Setters pour `arrow`
-    - Méthode `hit()` qui enlève 15 points de `life`
     - `arrow` (nombre de flèches)
     - Constructeur pour initialiser le `name` et le `nombre de flèches`
     - Getters et Setters pour `arrow`
