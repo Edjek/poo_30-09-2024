@@ -284,3 +284,9 @@ unset($naruto);
 // Une classe abstraite est une classe qui ne peut pas être instanciée.
 // Elle n'a pour but que de servir de modèle pour les classes enfants.
 // L'abstraction permet de définir des méthodes abstraites qui doivent être implémentées dans les classes enfants.
+
+/*------------------------------------*\
+    # INTERFACE
+\*------------------------------------*/
+
+// Une interface est un contrat qui permet de définir des méthodes que les classes qui implémentent cette interface doivent implémenter.
