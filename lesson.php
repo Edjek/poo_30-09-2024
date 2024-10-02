@@ -274,3 +274,8 @@ unset($naruto);
 
 // Le polymorphisme permet de redéfinir une méthode dans une classe enfant.
 
+/*------------------------------------*\
+    # ABSTRACTION
+\*------------------------------------*/
+
+// L'abstraction permet de définir des méthodes abstraites qui doivent être implémentées dans les classes enfants.
