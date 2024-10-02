@@ -56,7 +56,6 @@ Ajouter des méthodes getter et setter pour accéder et modifier les propriété
 Créer une méthode `displayProduct` pour afficher les informations du produit sous le format suivant :
 
 -   "Le produit est un: [nom du produit] et il coûte : [prix]."
--   "La date de péremption est le: [date de péremption]."
 -   "La liste des excipients est : [liste des excipients]."
 
 Utiliser une méthode PHP pour transformer les éléments d'un tableau en une chaîne de caractères pour la liste des excipients.
@@ -65,7 +64,7 @@ Utiliser une méthode PHP pour transformer les éléments d'un tableau en une ch
 
 ### Instructions
 
-Créer une classe `Conserve` qui hérite de la classe `Article`.
+Créer une classe `Aliment` qui hérite de la classe `Article`.
 
 #### Propriétés
 
