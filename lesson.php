@@ -278,4 +278,5 @@ unset($naruto);
     # ABSTRACTION
 \*------------------------------------*/
 
+// Une classe abstraite est une classe qui ne peut pas être instanciée.
 // L'abstraction permet de définir des méthodes abstraites qui doivent être implémentées dans les classes enfants.
