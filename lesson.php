@@ -127,6 +127,7 @@ echo $HarryPotter->getAuthor();
 \*------------------------------------*/
 
 // L'encapsulation permet de définir des propriétés et des méthodes privées qui ne sont pas accessibles depuis l'extérieur de la classe.
+// On utilise des accesseurs et des mutateurs pour accéder et modifier les propriétés privées.
 
 class Manga
 {
@@ -217,14 +218,16 @@ class Manga
 }
 
 $naruto = new Manga('dragon ball', 'yamamoto');
+
 $naruto->setTitle("naruto");
 $naruto->setAuthor("Masashi Kishimoto");
+
 echo $naruto->read();
 echo '<br>';
 echo $naruto->bonjour();
 echo '<br>';
-unset($naruto);
 
+unset($naruto);
 /*------------------------------------*\
     # GETTER | # SETTER
 \*------------------------------------*/
@@ -251,6 +254,7 @@ unset($naruto);
 \*------------------------------------*/
 
 // Une méthode static est une méthode qui peut être appelée sans avoir besoin d'instancier la classe.
+// Pour accéder à une méthode static, on utilise le nom de la classe suivi de ::.
 
 /*------------------------------------*\
     # CONSTANTE
@@ -270,6 +274,7 @@ unset($naruto);
     # POLYMORPHISME (redéfinition)
 \*------------------------------------*/
 
+// Le polymorphisme est un principe de la programmation orientée objet qui permet aux objets de différentes classes de répondre à une même méthode de manière différente.
 // Le polymorphisme permet de redéfinir une méthode dans une classe enfant.
 
 /*------------------------------------*\
