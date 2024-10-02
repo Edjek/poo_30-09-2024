@@ -220,10 +220,8 @@ $naruto = new Manga('dragon ball', 'yamamoto');
 $naruto->setTitle("naruto");
 $naruto->setAuthor("Masashi Kishimoto");
 echo $naruto->read();
-echo $naruto->bonjour();
-
-
 echo '<br>';
+echo $naruto->bonjour();
 echo '<br>';
 unset($naruto);
 
@@ -279,4 +277,5 @@ unset($naruto);
 \*------------------------------------*/
 
 // Une classe abstraite est une classe qui ne peut pas être instanciée.
+// Elle n'a pour but que de servir de modèle pour les classes enfants.
 // L'abstraction permet de définir des méthodes abstraites qui doivent être implémentées dans les classes enfants.

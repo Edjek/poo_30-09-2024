@@ -1,12 +1,10 @@
 <?php
 
-include_once './Article.php';
-
 class Conserve extends Article
 {
     private array $listExcipient;
 
-    public function __construct(string $name, float $price, array $listExcipient )
+    public function __construct(string $name, float $price, array $listExcipient)
     {
         parent::__construct($name, $price);
         $this->listExcipient = $listExcipient;

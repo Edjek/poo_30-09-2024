@@ -38,6 +38,6 @@ class Animal
 
     public function description(): string
     {
-        return "test je m'appelle $this->name";
+        return "Je m'appelle $this->name";
     }
 }

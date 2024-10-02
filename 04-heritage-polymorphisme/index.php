@@ -2,13 +2,13 @@
 
 include_once './Animal.php';
 include_once './Dog.php';
-include_once './Article.php';
-include_once './Conserve.php';
-include_once './Aliment.php';
+include_once './exercice/Article.php';
+include_once './exercice/Conserve.php';
+include_once './exercice/Aliment.php';
 
 $droopy = new Dog('Droopy', 12, 'chien de race');
 
-// echo $droopy->description();
+echo $droopy->description() . '<br>';
 
 $pull = new Article('pull a col à rond', 120.9);
 $jean = new Article('jean slim', 99.99);
