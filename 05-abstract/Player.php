@@ -41,7 +41,6 @@ abstract class Player
         return $this;
     }
 
-
     public function getScore(): int
     {
         return $this->score;

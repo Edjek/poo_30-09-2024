@@ -25,6 +25,5 @@ class Warrior extends Player
     public function hit()
     {
         $this->life = $this->life - 15;
-        // $this->setLife($this->getLife() - 15);
     }
 }

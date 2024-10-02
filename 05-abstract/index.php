@@ -9,5 +9,5 @@ $player = new Warrior('hulk', 12);
 $wizzard = new Mage('Merlin', 300);
 
 echo $wizzard->getLife();
-$wizzard->hit();
+echo $wizzard->hit();
 echo $wizzard->getLife();

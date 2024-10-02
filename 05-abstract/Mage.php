@@ -12,8 +12,8 @@ class Mage extends Player
 
     public function hit()
     {
-        $this->life = $this->life - 30;
-        // $this->setLife($this->getLife() - 30);
+        // $this->life = $this->life - 30;
+       $this->setLife($this->getLife() - 30);
     }
 
     public function getMana(): int
