@@ -297,3 +297,13 @@ unset($naruto);
 
 // Une classe finale est une classe qui ne peut pas être étendue.
 // Une méthode finale est une méthode qui ne peut pas être redéfinie dans une classe enfant.
+
+/*------------------------------------*\
+    # COMPOSITION et AGGREGATION
+\*------------------------------------*/
+
+// La composition est un principe de conception qui permet de créer des classes qui contiennent d'autres instances de classes.
+// La classe conteneur est responsable de la création et de la gestion de l'instance de la classe contenue.'
+
+// L'aggregation est un principe de conception qui permet de créer des classes qui contiennent d'autres instances de classes.
+// La classe conteneur n'est pas responsable de la création et de la gestion de l'instance de la classe contenue.
