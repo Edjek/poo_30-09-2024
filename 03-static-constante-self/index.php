@@ -8,8 +8,5 @@ echo Mathematic::soustraction(12, 89);
 echo Mathematic::multiplication(12, 89);
 $res = Mathematic::division(12, 120);
 
-if($res === false){
-
+if ($res === false) {
 }
-
-
