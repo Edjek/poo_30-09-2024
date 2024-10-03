@@ -1,5 +1,6 @@
 <?php
 
+// 
 class BookRepository
 {
 
@@ -8,6 +9,10 @@ class BookRepository
     public function __construct(PDO $pdo)
     {
         $this->pdo = $pdo;
+
+        // La composition est une relation entre deux classes qui est de type "a un" et qui est forte
+        // On ne peut pas avoir une instance de BookRepository sans avoir une instance de PDO
+        // $this->pdo = new PDO('mysql:host=localhost;dbname=library', 'root', '');
     }
 
     public function getBooks(): array
