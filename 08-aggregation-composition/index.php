@@ -7,6 +7,7 @@ include_once './BookRepository.php';
     On peut avoir une instance de BookRepository sans avoir une instance de PDO
 */
 $pdo =  new PDO('mysql:host=localhost;dbname=library', 'root', '');
+
 $repository = new BookRepository($pdo);
 
 $books = $repository->getBooks();
