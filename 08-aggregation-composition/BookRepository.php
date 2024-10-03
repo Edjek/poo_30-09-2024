@@ -25,14 +25,19 @@ class BookRepository
     {
         $stmt = $this->pdo->prepare('SELECT * FROM book');
         $stmt->execute();
+
         return $stmt->fetchAll();
     }
 
-    public function getBookById(int $id): ?array
+    // La méthode getBookById retourne un objet de type stdClass ou false
+    // On type le retour de la fonction pour preciser que l'on peut retourner un objet de type stdClass ou false
+    public function getBookById(int $id): object | bool
     {
         $stmt = $this->pdo->prepare('SELECT * FROM book WHERE id=:id');
         $stmt->bindParam(':id', $id);
         $stmt->execute();
-        return $stmt->fetch();
+
+        // fetch retourne un objet de type stdClass ou false
+        return $stmt->fetch(PDO::FETCH_OBJ);
     }
 }

@@ -11,6 +11,10 @@ $pdo =  new PDO('mysql:host=localhost;dbname=library', 'root', '');
 $repository = new BookRepository($pdo);
 
 $books = $repository->getBooks();
-$book = $repository->getBookById(1);
+$book = $repository->getBookById(178);
 
-echo $book['title'];
+if ($book) {
+    echo $book->title;
+} else {
+    echo 'Book not found';
+}
