@@ -290,3 +290,10 @@ unset($naruto);
 \*------------------------------------*/
 
 // Une interface est un contrat qui permet de définir des méthodes que les classes qui implémentent cette interface doivent implémenter.
+
+/*------------------------------------*\
+    # FINAL
+\*------------------------------------*/
+
+// Une classe finale est une classe qui ne peut pas être étendue.
+// Une méthode finale est une méthode qui ne peut pas être redéfinie dans une classe enfant.
