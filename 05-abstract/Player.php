@@ -57,4 +57,8 @@ abstract class Player
     {
         $this->life = $this->life - 10;
     }
+
+    // Une méthode abstraite est une méthode qui ne contient que la signature de la méthode, sans son implémentation.
+    // Les classes enfants doivent implémenter les méthodes abstraites.
+    // abstract public function move();
 }
