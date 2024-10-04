@@ -1,20 +1,18 @@
 <?php
 
+use App\Utils\Autoloader;
 use App\Entity\Peugeot;
 use App\Entity\Renault;
 use App\Entity\User;
 
-include_once './src/Abstract/AbstractVehicule.php';
-include_once './src/Interface/EngineInterface.php';
-include_once './src/Entity/Peugeot.php';
-include_once './src/Entity/Renault.php';
-include_once './src/Entity/User.php';
+include_once './src/Utils/Autoloader.php';
+
+Autoloader::autoload();
 
 $peugeot404 = new Peugeot();
 $renaultSCenic = new Renault();
 $rachid = new User();
 $rachid->setPseudo('Rachid EDJEKOUANE');
-
 
 echo $peugeot404->boot() . '<br>';
 echo $renaultSCenic->boot() . '<br>';
