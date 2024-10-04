@@ -14,7 +14,7 @@ $books = $repository->getBooks();
 $book = $repository->getBookById(178);
 
 if ($book) {
-    echo $book->title;
+    echo $book['title'];
 } else {
     echo 'Book not found';
 }
