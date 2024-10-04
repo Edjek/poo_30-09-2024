@@ -1,6 +1,5 @@
 <?php
 
-
 class Wolf extends Animal implements SavageAnimalInterface
 {
     /**
@@ -41,6 +40,6 @@ class Wolf extends Animal implements SavageAnimalInterface
 
     public function eatBird(Bird $bird): string
     {
-        return "Je viens de manger l'oiseau qui s'appelait {$bird->getName() }";
+        return "Je viens de manger l'oiseau qui s'appelait {$bird->getName()}";
     }
 }

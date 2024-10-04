@@ -1,8 +1,8 @@
 <?php
 
-interface SavageAnimalInterface 
+interface SavageAnimalInterface
 {
-    public function devour():string;
+    public function devour(): string;
 
-    public function eatBird(Bird $bird) : string;
+    public function eatBird(Bird $bird): string;
 }
